@@ -13,3 +13,5 @@ path = "./data"
 EOSINOPHIL = [cv2.imread(file) for file in glob.glob(path+"/*.jpeg")]
 sam_eosino = len(EOSINOPHIL)
 print(sam_eosino)
+
+print(5)
